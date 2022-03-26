@@ -8,7 +8,7 @@ namespace ReizTech_DFS_BranchesTask
 {
     public class Branch
     {
-        // this (id) is added to make each node is unique in the branch so as to be identified in the visited array in DFS code
+        // this (id) was added to make each node in the branch unique, so as to be identified in the (visited) array in DFS code
         public int id { get; set; } 
         public List<Branch> branches { get; set; }
 
